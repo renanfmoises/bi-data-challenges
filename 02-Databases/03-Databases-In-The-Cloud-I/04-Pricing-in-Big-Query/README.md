@@ -22,7 +22,7 @@ Given the above specifications, what is the monthly cost (in USD) of Google Big 
 
     Assume analysis and storing pricing as the only 2 costs associated to this use case (no associated data ingestion or extraction prices).
 
-    Notes: 1TB =1000GB ; 1GB=1000MB
+    Notes: 1TB = 1000GB; 1GB = 1000MB
 
 **Task II**
 
@@ -44,9 +44,9 @@ Your company plans to increase its initial 5TB active data storage in Big Query 
 
 **Analysis Pricing**
 
-10 data people * 500 queries/person *50 MB = 250,000 MB
+10 data people * 500 queries/person * 50 MB = 250,000 MB
 
-10 non tech people *10 queries/person *50MB = 5000 MB
+10 non tech people * 10 queries/person * 50 MB = 5,000 MB
 
 Total = 255,000 MB/month = 255 GB/month
 
@@ -68,13 +68,13 @@ See excel file "analysis and storage pricing.xlsx".
 
 At the end of the year each team will have:
 
-20*(1+ 1,2) = 44 new people
+20 * (1 + 1.2) = 44 new people
 
 After 12 months we will get:
 
-22 data people * 500 queries/person *50 MB = 550,000 MB
+22 data people * 500 queries/person * 50 MB = 550,000 MB
 
-22 non tech people *10 queries/person *50MB = 11000 MB
+22 non tech people * 10 queries/person * 50 MB = 11,000 MB
 
 Total = 561000 MB/month = 561 GB/month
 

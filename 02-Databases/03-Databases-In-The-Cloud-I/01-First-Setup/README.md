@@ -49,23 +49,22 @@ For a summary of Big Query UI [you can take a look here](https://cloud.google.co
 1. You can find all Big Data services by clicking in the left menu and scrolling down till the Big Data solutions. For example, 3 Big data solutions are: Composer, Big Query & Data Fusion.
 2. &  3. The query used to create the *sales* table has to look like:
 
-    ```sql
-    CREATE TABLE  employees.sales (
-        id INT64,
-        last_name STRING,
-        creation_date DATE,
-        last_login DATETIME,
-        is_manager  BOOL,
-        supervisors_id ARRAY<INT64>
+```sql
+CREATE TABLE  employees.sales (
+  id INT64,
+  last_name STRING,
+  creation_date DATE,
+  last_login DATETIME,
+  is_manager  BOOL,
+  supervisors_id ARRAY<INT64>
+)
 
-    )
-    OPTIONS(
-       description="Sales department information",
-       labels=[("employees_tables", "development")]
-     
-    )
-    ```
+OPTIONS(
+  description="Sales department information",
+  labels=[("employees_tables", "development")]
+)
+```
 
-    If  the dataset *employees* has been correctly created the above query should run without error.
+    If the *employees* dataset has been correctly created the above query should run without error.
 
-4. Straightforward creation of a table. Your table *marketing* should appear within the *employees* dataset.
+4. Straightforward creation of a table. Your *marketing* table should appear within the *employees* dataset.

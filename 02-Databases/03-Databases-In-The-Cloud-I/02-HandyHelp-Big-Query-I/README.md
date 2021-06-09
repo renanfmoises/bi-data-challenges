@@ -18,7 +18,7 @@ You can find the NYC 311 dataset in the public datasets in Big Query: `bigquery-
 
 ### Specs
 
-**IMPORTANT**: To deliver your solution write all queries in the same Big Query script. The queries should not be commented ( **NO** - -  or /* */ ). To separate each query **don't forget to add; at the end of each one**. When you are finished, make sure that the script runs properly. Several successful jobs should appear in the Query results tab:
+**IMPORTANT**: To deliver your solution write all queries in the same Big Query script. The queries should not be commented ( **NO** `- -`  or `/* */` ). To separate each query **don't forget to add; at the end of each one**. When you are finished, make sure that the script runs properly. Several successful jobs should appear in the Query results tab:
 
 ![assets/succefuls_run.png](assets/succefuls_run.png)
 
@@ -64,23 +64,21 @@ You can see all the queries in the following script: [https://console.cloud.goog
 
 ```sql
 SELECT 
-borough,
-COUNT(*) AS count_requests
-FROM 
-`bigquery-public-data.new_york_311.311_service_requests` 
+  borough,
+  COUNT(*) AS count_requests
+FROM `bigquery-public-data.new_york_311.311_service_requests`
 WHERE EXTRACT (YEAR FROM created_date)= 2020
 GROUP BY borough
 ORDER BY count_requests DESC;
 ```
 
-2.  August: 309713 calls
+2. August: 309713 calls
 
 ```sql
 SELECT 
-EXTRACT( MONTH FROM created_date) AS month_of_requests,
-COUNT(*) AS count_requests
-FROM 
-`bigquery-public-data.new_york_311.311_service_requests` 
+  EXTRACT( MONTH FROM created_date) AS month_of_requests,
+  COUNT(*) AS count_requests
+FROM `bigquery-public-data.new_york_311.311_service_requests`
 WHERE EXTRACT (YEAR FROM created_date)= 2020
 GROUP BY month_of_requests
 ORDER BY count_requests DESC;
@@ -90,62 +88,59 @@ ORDER BY count_requests DESC;
 
 ```sql
 SELECT 
-borough,
-COUNT(*) AS count_requests
-FROM 
-`bigquery-public-data.new_york_311.311_service_requests` 
+  borough,
+  COUNT(*) AS count_requests
+FROM `bigquery-public-data.new_york_311.311_service_requests`
 WHERE FORMAT_DATE("%b-%Y", created_date) = 'Aug-2020'
 GROUP BY borough
 ORDER BY count_requests DESC;
 ```
 
-4. Saturday (7) : 382119 calls
+4. Saturday (7): 382119 calls
 
 ```sql
 SELECT 
- EXTRACT(DAYOFWEEK FROM created_date) AS DayofWeek,
- COUNT(*) AS total_requests
-FROM 
-`bigquery-public-data.new_york_311.311_service_requests` 
+  EXTRACT(DAYOFWEEK FROM created_date) AS DayofWeek,
+  COUNT(*) AS total_requests
+FROM `bigquery-public-data.new_york_311.311_service_requests`
 WHERE EXTRACT (YEAR FROM created_date)= 2020
 GROUP BY DayofWeek
-order by total_requests DESC;
+ORDER BY total_requests DESC;
 ```
 
-5. Saturday (7) :  ~7348 calls of average
+5. Saturday (7):  \~7348 calls of average
 
 ```sql
 WITH count_per_day AS (
-SELECT 
-FORMAT_DATE('%F',created_date) AS creation_date,#Returns an String.
-COUNT(*) AS count_requests
-FROM
-`bigquery-public-data.new_york_311.311_service_requests` 
-WHERE EXTRACT (YEAR FROM created_date) = 2020
-GROUP BY creation_date
+  SELECT
+    FORMAT_DATE('%F',created_date) AS creation_date,#Returns an String.
+    COUNT(*) AS count_requests
+  FROM`bigquery-public-data.new_york_311.311_service_requests`
+  WHERE EXTRACT (YEAR FROM created_date) = 2020
+  GROUP BY creation_date
 ) 
-SELECT EXTRACT(DAYOFWEEK FROM DATE(creation_date)) AS DayofWeek,
-AVG(count_requests) AS avg_requests_day
+SELECT
+  EXTRACT(DAYOFWEEK FROM DATE(creation_date)) AS DayofWeek,
+  AVG(count_requests) AS avg_requests_day
 FROM count_per_day
 GROUP BY DayofWeek
 ORDER BY avg_requests_day DESC;
 ```
 
-6.  ~7284 calls
+6. \~7284 calls
 
 ```sql
 WITH count_per_day AS (
-    SELECT 
-FORMAT_DATE('%F',created_date) AS creation_date,#Returns an String.
-COUNT(*) AS count_requests
-FROM
-`bigquery-public-data.new_york_311.311_service_requests` 
-WHERE (EXTRACT (YEAR FROM created_date) = 2020 ) AND
-      (EXTRACT (DAYOFWEEK FROM created_date) IN (1,7))
-GROUP BY creation_date
+  SELECT
+    FORMAT_DATE('%F',created_date) AS creation_date,#Returns an String.
+    COUNT(*) AS count_requests
+  FROM `bigquery-public-data.new_york_311.311_service_requests`
+  WHERE (EXTRACT (YEAR FROM created_date) = 2020 ) AND
+        (EXTRACT (DAYOFWEEK FROM created_date) IN (1,7))
+  GROUP BY creation_date
 ) 
 SELECT 
-AVG(count_requests) AS avg_requests_day
+  AVG(count_requests) AS avg_requests_day
 FROM count_per_day;
 ```
 
@@ -153,16 +148,15 @@ FROM count_per_day;
 
 ```sql
 WITH count_per_day AS (
-    SELECT 
-FORMAT_DATE('%F',created_date) AS creation_date,#Returns an String.
-COUNT(*) AS count_requests
-FROM
-`bigquery-public-data.new_york_311.311_service_requests` 
-WHERE EXTRACT (DAYOFWEEK FROM created_date) IN (1,7)
-GROUP BY creation_date
+  SELECT
+    FORMAT_DATE('%F',created_date) AS creation_date,#Returns an String.
+    COUNT(*) AS count_requests
+  FROM `bigquery-public-data.new_york_311.311_service_requests`
+  WHERE EXTRACT (DAYOFWEEK FROM created_date) IN (1,7)
+  GROUP BY creation_date
 ) 
 SELECT EXTRACT (YEAR FROM DATE(creation_date)) AS Year, 
-AVG(count_requests) AS avg_requests_day
+  AVG(count_requests) AS avg_requests_day
 FROM count_per_day
 GROUP BY Year
 ORDER BY Year;

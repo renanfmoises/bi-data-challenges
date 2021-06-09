@@ -45,10 +45,9 @@ You can see all the queries in the following script: [https://console.cloud.goog
 
 ```sql
 SELECT 
-complaint_type,
-COUNT(*) AS counter
- FROM 
-`bigquery-public-data.new_york_311.311_service_requests`  
+  complaint_type,
+  COUNT(*) AS counter
+FROM `bigquery-public-data.new_york_311.311_service_requests`
 WHERE EXTRACT (YEAR FROM created_date) = 2020
 GROUP BY complaint_type
 ORDER BY counter DESC;
@@ -57,16 +56,14 @@ ORDER BY counter DESC;
 2. See query below
 
 ```sql
-CREATE VIEW `handyhelp.complaints_view` 
-AS
-SELECT 
-complaint_type,
-COUNT(*) as counter
- FROM 
-`bigquery-public-data.new_york_311.311_service_requests`  
-WHERE EXTRACT (YEAR FROM created_date) = 2020
-GROUP BY complaint_type
-ORDER BY counter DESC;
+CREATE VIEW `handyhelp.complaints_view` AS
+  SELECT
+    complaint_type,
+    COUNT(*) as counter
+  FROM `bigquery-public-data.new_york_311.311_service_requests`
+  WHERE EXTRACT (YEAR FROM created_date) = 2020
+  GROUP BY complaint_type
+  ORDER BY counter DESC;
 ```
 
 3. 31 % are noise related complaints vs. 69% others
@@ -74,48 +71,47 @@ ORDER BY counter DESC;
 ```sql
 --Option 1.
 SELECT 
-    CASE
-    WHEN complaint_type LIKE ('Noise%') THEN 'Noise'
-    ELSE 'Others'
-  END
-  AS category,
- COUNT(*) AS count_complaint
- FROM 
-`bigquery-public-data.new_york_311.311_service_requests` 
+  CASE
+  WHEN complaint_type LIKE ('Noise%') THEN 'Noise'
+  ELSE 'Others'
+  END AS category,
+  COUNT(*) AS count_complaint
+FROM `bigquery-public-data.new_york_311.311_service_requests`
 WHERE 
 EXTRACT (YEAR FROM created_date) = 2020
 GROUP BY category
-order by count_complaint DESC;
+ORDER BY count_complaint DESC;
 
 --Option 2. Same as 1 but we estimate the % in the query.
 WITH noise_vs_others AS (
-    SELECT 
+  SELECT
     CASE
     WHEN complaint_type LIKE ('Noise%') THEN 'Noise'
     ELSE 'Others'
-  END
-  AS category,
- COUNT(*) AS count_complaint
- FROM 
-`bigquery-public-data.new_york_311.311_service_requests` 
-WHERE 
-EXTRACT (YEAR FROM created_date) = 2020
-GROUP BY category
-order by count_complaint DESC)
+    END
+    AS category,
+    COUNT(*) AS count_complaint
+  FROM `bigquery-public-data.new_york_311.311_service_requests`
+  WHERE
+  EXTRACT (YEAR FROM created_date) = 2020
+  GROUP BY category
+  ORDER BY count_complaint DESC
+)
 SELECT category,count_complaint,100*(count_complaint/value) FROM noise_vs_others,
-(SELECT 
-COUNT(*)AS value FROM 
-`bigquery-public-data.new_york_311.311_service_requests` 
-WHERE EXTRACT (YEAR FROM created_date) = 2020);
+  (
+    SELECT
+      COUNT(*)AS value
+    FROM `bigquery-public-data.new_york_311.311_service_requests`
+    WHERE EXTRACT (YEAR FROM created_date) = 2020
+  );
 ```
 
-4. ~311 hours. See query below:   
+4. \~311 hours. See query below:
 
 ```sql
 SELECT 
-AVG(TIMESTAMP_DIFF(closed_date,created_date,HOUR)) AS avg_resolution_time,
-FROM 
-`bigquery-public-data.new_york_311.311_service_requests` 
+  AVG(TIMESTAMP_DIFF(closed_date,created_date,HOUR)) AS avg_resolution_time,
+FROM `bigquery-public-data.new_york_311.311_service_requests`
 WHERE EXTRACT (YEAR FROM created_date) = 2020
 AND TIMESTAMP_DIFF(closed_date,created_date,HOUR) > 0;
 ```
@@ -124,10 +120,9 @@ AND TIMESTAMP_DIFF(closed_date,created_date,HOUR) > 0;
 
 ```sql
 SELECT 
-complaint_type,
-AVG(TIMESTAMP_DIFF(closed_date,created_date,HOUR)) AS avg_resolution_time,
-FROM 
-`bigquery-public-data.new_york_311.311_service_requests` 
+  complaint_type,
+  AVG(TIMESTAMP_DIFF(closed_date,created_date,HOUR)) AS avg_resolution_time,
+FROM `bigquery-public-data.new_york_311.311_service_requests`
 WHERE EXTRACT (YEAR FROM created_date) = 2020
 AND TIMESTAMP_DIFF(closed_date,created_date,HOUR) > 0
 GROUP BY complaint_type;
@@ -138,10 +133,9 @@ GROUP BY complaint_type;
 
 ```sql
 SELECT 
-borough,
-AVG(TIMESTAMP_DIFF(closed_date,created_date,HOUR)) AS avg_resolution_time,
-FROM 
-`bigquery-public-data.new_york_311.311_service_requests`
+  borough,
+  AVG(TIMESTAMP_DIFF(closed_date,created_date,HOUR)) AS avg_resolution_time,
+FROM `bigquery-public-data.new_york_311.311_service_requests`
 WHERE EXTRACT (YEAR FROM created_date) = 2020
 AND TIMESTAMP_DIFF(closed_date,created_date,HOUR) > 0
 GROUP BY borough
@@ -153,50 +147,49 @@ ORDER BY avg_resolution_time;
 ```sql
 --Option 1. 
 SELECT 
-borough,
-complaint_type,
-AVG(TIMESTAMP_DIFF(closed_date,created_date,HOUR)) AS avg_resolution_time,
-FROM 
-`bigquery-public-data.new_york_311.311_service_requests` 
+  borough,
+  complaint_type,
+  AVG(TIMESTAMP_DIFF(closed_date,created_date,HOUR)) AS avg_resolution_time,
+FROM `bigquery-public-data.new_york_311.311_service_requests`
 WHERE EXTRACT (YEAR FROM created_date) = 2020
 AND TIMESTAMP_DIFF(closed_date,created_date,HOUR) > 0
-AND( borough is not null or borough!= 'Unspecified')
+AND (borough IS NOT NULL or borough!= 'Unspecified')
 GROUP BY borough,complaint_type
 ORDER BY borough,avg_resolution_time DESC;
 
 --Option 2. Using rank() over partition and filtering top 4 slowest resolution complaints/borough
 
 WITH ranking_query AS ( 
-     SELECT 
-     borough,
-     complaint_type,
-     AVG(TIMESTAMP_DIFF(closed_date,created_date,HOUR)) AS avg_resolution_time,
-     RANK () OVER ( 
-			PARTITION BY borough
-			ORDER BY AVG(TIMESTAMP_DIFF(closed_date,created_date,HOUR)) DESC
-            ) AS dur_rank 
-     FROM 
-    `bigquery-public-data.new_york_311.311_service_requests` 
-     WHERE EXTRACT (YEAR FROM created_date) = 2020
-     AND( borough is not null or borough!= 'Unspecified')
-     AND TIMESTAMP_DIFF(closed_date,created_date,HOUR) > 0
-     GROUP BY borough,complaint_type)
+  SELECT
+    borough,
+    complaint_type,
+    AVG(TIMESTAMP_DIFF(closed_date,created_date,HOUR)) AS avg_resolution_time,
+    RANK () OVER (
+      PARTITION BY borough
+      ORDER BY AVG(TIMESTAMP_DIFF(closed_date,created_date,HOUR)) DESC
+    ) AS dur_rank
+  FROM `bigquery-public-data.new_york_311.311_service_requests`
+  WHERE EXTRACT (YEAR FROM created_date) = 2020
+  AND( borough is not null or borough!= 'Unspecified')
+  AND TIMESTAMP_DIFF(closed_date,created_date,HOUR) > 0
+  GROUP BY borough,complaint_type
+)
 
-SELECT * FROM ranking_query WHERE dur_rank IN ( 1,2,3,4)
+SELECT * FROM ranking_query WHERE dur_rank IN (1,2,3,4);
 ```
 
-8. An average of ~75 times per day a rodent is reported
+8. An average of \~75 times per day a rodent is reported
 
 ```sql
 WITH rats_per_day AS (
-    SELECT 
+  SELECT
     FORMAT_DATE('%F',created_date) AS Day,
     COUNT(*) AS count_complaint
-    FROM 
-    `bigquery-public-data.new_york_311.311_service_requests` 
-    WHERE complaint_type= "Rodent" AND
-    EXTRACT (YEAR FROM created_date) = 2020
-    GROUP BY Day
-    order by count_complaint)
+  FROM `bigquery-public-data.new_york_311.311_service_requests`
+  WHERE complaint_type= "Rodent" AND
+  EXTRACT (YEAR FROM created_date) = 2020
+  GROUP BY Day
+  ORDER BY count_complaint
+)
 SELECT AVG(count_complaint) FROM rats_per_day;
 ```
