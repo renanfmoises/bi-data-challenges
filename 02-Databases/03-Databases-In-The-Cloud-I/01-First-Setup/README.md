@@ -18,7 +18,7 @@ Alternatively, if you want to have an overview of all GCP services you can acces
 
 The first time you access to GCP/Big Query you will be asked to fill some basic information & agree terms of service.
 
-![assets/welcome.png](First%20set%20up%20fcc79d6ad81f47a98fcc10693cf9da62/welcome.png)
+![assets/welcome.png](assets/welcome.png)
 
 Remember that during this course we will be using the **Big Query Sandbox**. This is the no cost mode of Big Query that allows you to store up to 10 GB of data and to process 1TB/month of data for free. To use it, **you don’t have to provide your credit card information!**
 
@@ -26,7 +26,7 @@ In the Big Query page, you can create your first project. Remember that you can 
 
 Also, it allows you to link the project to an organization given that your Google account is linked to one. 
 
-![assets/firstproject.png](First%20set%20up%20fcc79d6ad81f47a98fcc10693cf9da62/firstproject.png)
+![assets/firstproject.png](assets/firstproject.png)
 
 For a summary of Big Query UI [you can take a look here](https://cloud.google.com/bigquery/docs/bigquery-web-ui)
 

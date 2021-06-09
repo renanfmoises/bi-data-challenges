@@ -22,15 +22,15 @@ You can find the NYC 311 dataset in the public datasets in Big Query: `bigquery-
 
 **IMPORTANT**: To deliver your solution write all queries in the same Big Query script. The queries should not be commented ( **NO** - -  or /* */ ). To separate each query **don't forget to add; at the end of each one**. When you are finished, make sure that the script runs properly. Several successful jobs should appear in the Query results tab:
 
-![assets/succefuls_run.png](HandyHelp%20Big%20Query%20analysis%20I%20a9c78f9605a24ebd982042c041b8afee/succefuls_run.png)
+![assets/succefuls_run.png](assets/succefuls_run.png)
 
  Then save the script as we learned in class with a personal Visibility:
 
-![assets/Captura.png](HandyHelp%20Big%20Query%20analysis%20I%20a9c78f9605a24ebd982042c041b8afee/Captura.png)
+![assets/Captura.png](assets/Captura.png)
 
 Finally, go to your **Saved Queries**, click on the saved script and **activate the Link Sharing** option:
 
-![assets/link-on.png](HandyHelp%20Big%20Query%20analysis%20I%20a9c78f9605a24ebd982042c041b8afee/link-on.png)
+![assets/link-on.png](assets/link-on.png)
 
 Your deliverable is the **Query URL** that appears there. Please share it on Slack with your lead instructor right away.
 
