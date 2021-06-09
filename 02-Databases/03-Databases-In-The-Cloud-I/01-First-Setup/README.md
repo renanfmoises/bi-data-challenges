@@ -1,7 +1,3 @@
-# First set up
-
----
-
 ### Objectives
 
 The goal of this challenge is to set up your Big Query Sandbox.

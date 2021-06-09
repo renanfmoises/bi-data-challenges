@@ -1,5 +1,3 @@
-# HandyHelp Big Query analysis I
-
 ### Background
 
 *HandyHelp* is a NYC based startup that aims at revolutionizing the tradesman help on-demand industry. Having something to fix at home? Then you open HandyHelp app or browse to their website and find an electrician, carpenter, builder… that will address your issue in less than 5 hours. As a part of their expansion roadmap, they are planning to partner with local authorities to provide tradesman help on-demand.

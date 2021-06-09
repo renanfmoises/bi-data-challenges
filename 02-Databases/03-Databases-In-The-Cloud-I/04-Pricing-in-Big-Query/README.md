@@ -1,5 +1,3 @@
-# Pricing in Big Query
-
 ### Background
 
 The goal of this challenge is to learn about Big Query pricing.

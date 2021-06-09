@@ -1,5 +1,3 @@
-# HandyHelp Big Query analysis II
-
 ### Background & objectives
 
 Your work to help *HandyHelp* to better seize the market continues. Now you are interested into looking at the types of complaints made in NYC.
