@@ -1,4 +1,4 @@
-Welcome to the Decision Science module 🎉
+Welcome to the Consulting Project module 🎉
 
 Goals of this module:
 1. Bringing all concepts you learned together
