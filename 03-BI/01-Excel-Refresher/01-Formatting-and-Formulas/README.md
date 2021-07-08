@@ -47,9 +47,12 @@ Using `challenge_1_first_analysis` tab:
 
 - What is the average product price? And cost?
 - Use this info to calculate the average gross margin rate in %
-    - Hint 💡
+<details><summary markdown='span'>Hint 💡
+</summary>
+Gross margin rate = $(price - cost) / cost$
+</details>
 
-        Gross margin rate =  $(price - cost) / cost$
+
 
 Check your answers with a right click on any tab, and unhide the tab `challenge_1_solution_1`.
 
@@ -64,16 +67,20 @@ Using `challenge_1_dig_further` tab:
 - Count how many entries contain the item `"Curry"`
 - Sum-up all quantities of `"Curry"`
 - How many entries after 1st of july 2016?
-    - Hint 💡
+<details><summary markdown='span'>Hint 💡
+</summary>
+Use `DATE` in your formula
+</details>
 
-        Use `DATE` in your formula
+
 
 **Products**
 
 - How many products contain the word `"Naan"`?
-    - Hint 💡
-
-        Do not forget to [do some research](https://www.google.com/search?q=Countifs+cell+contains+specific+text&rlz=1C1CHBF_frFR926FR926&sxsrf=ALeKk00nnDFK5qBirQY4Qz36htc07xeaag%3A1619446688458&ei=oMuGYM28G-OjgwfZ17-4Bw&oq=Countifs+cell+contains+specific+text&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEMsBMgYIABAIEB46BwgjELADECc6BwgAEEcQsAM6BggAEAcQHjoECAAQEzoKCAAQCBANEB4QE1DDOlisSWC1S2gGcAJ4AIABVYgBnQKSAQE1mAEAoAEBqgEHZ3dzLXdpesgBCcABAQ&sclient=gws-wiz&ved=0ahUKEwjNjOSEjZzwAhXj0eAKHdnrD3cQ4dUDCA4&uact=5) when you're stuck!
+<details><summary markdown='span'>Hint 💡
+</summary>
+Do not forget to [do some research](https://www.google.com/search?q=Countifs+cell+contains+specific+text&rlz=1C1CHBF_frFR926FR926&sxsrf=ALeKk00nnDFK5qBirQY4Qz36htc07xeaag%3A1619446688458&ei=oMuGYM28G-OjgwfZ17-4Bw&oq=Countifs+cell+contains+specific+text&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEMsBMgYIABAIEB46BwgjELADECc6BwgAEEcQsAM6BggAEAcQHjoECAAQEzoKCAAQCBANEB4QE1DDOlisSWC1S2gGcAJ4AIABVYgBnQKSAQE1mAEAoAEBqgEHZ3dzLXdpesgBCcABAQ&sclient=gws-wiz&ved=0ahUKEwjNjOSEjZzwAhXj0eAKHdnrD3cQ4dUDCA4&uact=5) when you're stuck!
+</details>
 
 - How many products are sold at a price > $20?
 - And between $10 and $20 included?
