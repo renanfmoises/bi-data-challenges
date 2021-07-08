@@ -12,7 +12,7 @@ The director wants an overview of the indian restaurant installed there for a fe
 
 Let's work with the `indian_food_corner.xlsx` file.
 
-[indian_food_corner.xlsx](assets/indian_food_corner.xlsx)
+[indian_food_corner.xlsx](https://wagon-public-datasets.s3.eu-west-1.amazonaws.com/bi-data/indian_food_corner.xlsx)
 
 Open the Excel file, you can find two important tabs here, in red:
 
