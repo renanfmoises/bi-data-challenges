@@ -18,10 +18,11 @@ In the `order-details` tab:
     - If margin % is upper than 150%, print "Great"
     - If margin % lower than 100%, print "Just Ok"
     - Otherwise, print "Good"
-- Hint 💡
+<details><summary markdown='span'>Hint 💡
+</summary>
+  You'll have to nest two `IF` together!
 
-    You'll have to nest two `IF` together!
-
-    Note how this new formula behaves in an Excel Table.
+  Note how this new formula behaves in an Excel Table.
+</details>
 
 Check the solution in `challenge_3_solution_1`.

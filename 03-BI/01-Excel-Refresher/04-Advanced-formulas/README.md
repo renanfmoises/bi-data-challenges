@@ -10,17 +10,21 @@ It will let you have the average `QualityCheck` value per month and employee.
 
 → Dataset is on columns A to C.
 
-- Hint 1 (only if needed!)💡
 
-    An `AVERAGEIFS` formula with 3 criteria could be useful... don't forget the constraints!
+<details><summary markdown='span'>Hint 1 (only if needed!)💡
+</summary>
+  An `AVERAGEIFS` formula with 3 criteria could be useful... don't forget the constraints!
+</details>
 
-- Hint 2 💡
+<details><summary markdown='span'>Hint 2 💡
+</summary>
+  Check the `EDATE` formula on the web.
+</details>
 
-    Check the `EDATE` formula on the web.
-
-- Hint 3💡
-
-    Got errors instead of zeros ? Use `IFERROR`!
+<details><summary markdown='span'>Hint 3 💡
+</summary>
+  Got errors instead of zeros ? Use `IFERROR`!
+</details>
 
 Once done, find a way to display the value corresponding to chosen Employee and Month in lists: your colleague look forward to using this report!
 
