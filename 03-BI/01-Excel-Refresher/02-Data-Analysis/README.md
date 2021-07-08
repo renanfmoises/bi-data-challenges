@@ -10,9 +10,12 @@ When planning to modify raw tables, creating a new sheet (or a new workbook) is 
 
 Copy-paste the whole `orders` sheet and rename the newly created tab as `analysis`. Ensure that you disabled sorting from your previous challenge first.
 
-- Hint 💡
+<details><summary markdown='span'>Hint 💡
+</summary>
+  Just right click on the tab you want to copy and click `Move or Copy`.
+</details>
 
-    Just right click on the tab you want to copy and click `Move or Copy`.
+
 
 ## Joining orders and products
 
@@ -22,11 +25,12 @@ Using `INDEX MATCH`, write a formula filling this column with the corresponding 
 
 Also add the unit cost in a `Unit Cost` column.
 
-- Hint 💡
+<details><summary markdown='span'>Hint 💡
+</summary>
+  Have you noted that adding a new product is made really easy thanks to this two tables structure? You'll see more about table relationship later.
 
-    Have you noted that adding a new product is made really easy thanks to this two tables structure? You'll see more about table relationship later.
-
-    Note that we could have used a Merge query, as seen during class, with a larger dataset.
+  Note that we could have used a Merge query, as seen during class, with a larger dataset.
+</details>
 
 Check the solution in `challenge_2_solution_1`.
 
@@ -51,11 +55,13 @@ Let's build a brand new `order-details` blank sheet (tab).
 1. First, select and copy `Order ID` and `Order Date` data together from `analysis`
 2. In A1 cell of `order-details` tab, paste it
 3. Remove duplicates of those columns at once.
-    - Hint 💡
 
-        Click Data > Data Tools > Remove Duplicates
+    <details><summary markdown='span'>Hint 💡
+    </summary>
+      Click Data > Data Tools > Remove Duplicates
 
-        We can delete duplicate on both columns because each order of the `Order ID` were necessarily placed at the same date!
+              We can delete duplicate on both columns because each order of the `Order ID` were necessarily placed at the same date!
+    </details>
 
 4. Using `SUMIFS` and your knowledge, create and fill a `Revenue` and `Total Cost` columns
 5. Add a `Margin` column by substracting `Revenue` and `Total Cost`
