@@ -27,9 +27,10 @@ Order dates of the "orders" tab seem to be displayed the wrong way.
 
 Show them in a "yyyy-mm-dd" format and sort it by ascending date without using Excel Table format.
 
-- Hint 💡
-
-    Look in Data > Filter
+<details><summary markdown='span'>Hint 💡
+</summary>
+Look in Data > Filter
+</details>
 
 ## First Analysis
 
