@@ -60,7 +60,9 @@ Let's build a brand new `order-details` blank sheet (tab).
     </summary>
       Click Data > Data Tools > Remove Duplicates
 
-              We can delete duplicate on both columns because each order of the `Order ID` were necessarily placed at the same date!
+      ```
+      We can delete duplicate on both columns because each order of the `Order ID` were necessarily placed at the same date!
+      ```
     </details>
 
 4. Using `SUMIFS` and your knowledge, create and fill a `Revenue` and `Total Cost` columns
