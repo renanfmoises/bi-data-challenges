@@ -2,25 +2,22 @@ Now that you become more and more familiar with Excel, let's work on another cas
 
 As a senior business analyst in an international retail company, you were asked to analyze the Myanmar market and build a report.
 
-[supermarket_sales.csv](assets/supermarket_sales.csv)
-
-[supermarket_study.xlsx](assets/supermarket_study.xlsx)
-
 ## Background & Objectives
 
 The goal of this challenge is to create your first Pivot Table analysis, using a CSV file.
 
 ## Importing a CSV file
 
-Please download the `supermarket_sales.csv` and `supermarket_study.xlsx`.
+Please download [supermarket_sales.csv](assets/supermarket_sales.csv) and [supermarket_study.xlsx](assets/supermarket_study.xlsx).
 
 Open `supermarket_study.xlsx`. It will be your main workbook.
 
-- Hint 💡
+<details><summary markdown='span'>Hint 💡
+</summary>
+  We could assume that `supermarket_sales.csv` can be opened directly, isn't it ? After all there is an Excel logo on it.
 
-    We could assume that `supermarket_sales.csv` can be opened directly, isn't it ? After all there is an Excel logo on it.
-
-    Yes it can, but it won't always work depending on .csv source. The import CSV tool is always to be chosen to avoid formatting issues!
+  Yes it can, but it won't always work depending on .csv source. The import CSV tool is always to be chosen to avoid formatting issues!
+</details>
 
 Import `supermarket_sales.csv` (do not forget to check the preview!) and load it as seen during our lesson. The tab should be named `Raw Data`.
 
@@ -50,11 +47,12 @@ Let's try a first calculation:
 
 - On the right ribbon, check fields `Total` and `City`: you should have the total revenue per city. Amazingly easy, no?
 - Now check `Gender`. Move it from Rows to Columns: what do you notice?
-    - Hint 💡
+<details><summary markdown='span'>Hint 💡
+</summary>
+  Avoid as much as possible to add more than one field on the Rows area.
 
-        Avoid as much as possible to add more than one field on the Rows area.
-
-        Nested rows tables are not easily workable when exported or used in reports.
+  Nested rows tables are not easily workable when exported or used in reports.
+</details>
 
 - Check `Date`, Years, Quarters and Date appearing in Rows. Delete Quarters and Date, and move Years to the Filter area. You can now select a specific year to get the Grand Total.
 
