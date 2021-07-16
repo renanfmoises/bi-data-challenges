@@ -26,10 +26,10 @@ Use Query Editor to make this data look better:
 2. Format the "Billions ($)" column to a whole number format
 <details>
 <summary markdown='span'>Hint 💡</summary>
-    - (Step 0: Replace the "." (point) with a "," (coma) )
-    - Step 1: Replace the word billion with an empty string.
-    - Step 2: Replace the $ symbol with an empty string.
-    - Step 3: Convert the resulting column to a whole number.
+- (Step 0: Replace the "." (point) with a "," (coma) )
+- Step 1: Replace the word billion with an empty string.
+- Step 2: Replace the $ symbol with an empty string.
+- Step 3: Convert the resulting column to a whole number.
 </details>
 
 ## Data visualization
