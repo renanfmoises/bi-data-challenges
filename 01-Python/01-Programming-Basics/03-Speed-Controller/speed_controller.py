@@ -11,7 +11,7 @@ def multiplicator(max_speed, actual_speed):
 
 def basic_tax(max_speed, actual_speed):
     """
-    Law (1): 5€ for every km/h above the maximal speed (1), with a minaml tax of 12.5
+    Law (1): 5€ for every km/h above the maximal speed (1), with a minimal tax of 12.5
     :param max_speed: int
     :param actual_speed: int
     :return: float
