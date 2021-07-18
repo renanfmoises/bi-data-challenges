@@ -136,15 +136,3 @@ for student in students:
 return student_did_not_pass
 ```
 </details>
-
-## Pushing your code to GitHub
-
-Remember the steps we did yesterday to save the code on GitHub? Let's do it again, for this new exercise:
-
-1. Open GitHub Desktop
-1. It should automatically detect that the `maths_results.py` file has changed. If not, ask a TA
-1. Make sure this file is ticked, and write a _commit message_ in the bottom left form (For instance: `Complete the results exercise using Lists`)
-1. Click on the "Commit to `master`" button at the bottom of the form
-1. Click on the "Push `origin`" button at the top of the window
-
-That's it! Take a small break before diving into the `Using Dictionaries` exercise.
