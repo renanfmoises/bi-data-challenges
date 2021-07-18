@@ -12,7 +12,7 @@ A [palindrome](https://en.wikipedia.org/wiki/Palindrome) is a word, phrase, numb
 
 ## Exercise
 
-In Spyder, open the `palindrome.py` file.
+In VS Code, open the `palindrome.py` file.
 
 Write a `is_palindrome()` function which takes one parameter:
 
@@ -22,7 +22,7 @@ This function should return `True` if the `sentence` is a palindrome, regardless
 
 ## Pushing your code to GitHub
 
-Don't forget to use GitHub Desktop to push your progress!
+Don't forget to use git to push your progress!
 
 ## Done?
 
