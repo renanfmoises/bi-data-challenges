@@ -10,7 +10,7 @@ Moreover, the CTO has decided to start migrating all the data to GCP. Along with
 
 **What is the 311?**
 
-> In USA , *it is a non-emergency phone number that people can call in many cities to find information about services, make complaints, or report problems like graffiti or road damage*… (source: [govetech.com](http://govetech.com/))
+> In USA , *it is a non-emergency phone number that people can call in many cities to find information about services, make complaints, or report problems like graffiti or road damage*… (source: [govtech.com](https://www.govtech.com/dc/articles/what-is-311.html))
 
 You can find the NYC 311 dataset in the public datasets in Big Query: `bigquery-public-data.new_york_311.311_service_requests` **Each row represents a call made to 311**.
 
