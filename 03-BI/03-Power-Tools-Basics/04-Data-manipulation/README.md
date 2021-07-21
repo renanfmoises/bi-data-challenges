@@ -10,10 +10,12 @@ Create a new Power BI report, and load the data from this file:
 
 ![assets/Untitled.png](assets/Untitled.png)
 
-- Hint 💡
-    - Drop 1st top row
-    - Use first row as headers
-    - Name 1st column ⇒ Task
+<details><summary markdown='span'>Hint 💡
+</summary>
+  - Drop 1st top row
+  - Use first row as headers
+  - Name 1st column ⇒ Task
+</details>
 
 ## Data cleaning
 
@@ -27,9 +29,12 @@ Use Query Editor to enrich your data:
 
 - Add a conditional column, returning the correct `Month number` for each row (do the corresponding for the 12 months, it will be useful for the rest of this challenge)
 - Now, we want to create a real datetime object for this column. Let's say these values were taken the 1st day of each month in 2020. Create a new column `Date task` with a date format.
-    - Hint 💡
-        - Create an aggregated column you will transform in date format
-        - `Date task = "01/" & [Month number] & "/2020"`
+
+<details><summary markdown='span'>Hint 💡
+</summary>
+  - Create an aggregated column you will transform in date format
+  - `Date task = "01/" & [Month number] & "/2020"`
+</details>
 
 ![assets/Untitled%202.png](assets/Untitled%202.png)
 
