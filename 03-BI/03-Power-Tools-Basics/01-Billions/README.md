@@ -14,7 +14,7 @@ Create a new Power BI report, and load in the data from this workbook:
 
 ![assets/Untitled.png](assets/Untitled.png)
 
-Let's clean our data now !
+Let's clean our data now!
 
 ## Data cleaning
 
