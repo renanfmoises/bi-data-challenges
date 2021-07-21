@@ -8,9 +8,9 @@ To better seize the market and to distribute their workforce accordingly, they w
 
 Moreover, the CTO has decided to start migrating all the data to GCP. Along with the CEO, and as a first point of contact, they have asked you, a skilled Data Analyst working in *HandyHelp*, to use the NYC 311 dataset available in Google Big Query to understand better the market.
 
-- What is the 311?
+**What is the 311?**
 
-    > In USA , *it is a non-emergency phone number that people can call in many cities to find information about services, make complaints, or report problems like graffiti or road damage*… (source: [govetech.com](http://govetech.com/))
+> In USA , *it is a non-emergency phone number that people can call in many cities to find information about services, make complaints, or report problems like graffiti or road damage*… (source: [govetech.com](http://govetech.com/))
 
 You can find the NYC 311 dataset in the public datasets in Big Query: `bigquery-public-data.new_york_311.311_service_requests` **Each row represents a call made to 311**.
 
