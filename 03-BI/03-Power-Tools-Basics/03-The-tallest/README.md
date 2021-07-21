@@ -17,9 +17,9 @@ Create a new Power BI report, and load the data from this file:
 Use Query Editor to re-arrange some columns:
 
 1. From "Description" column, create new columns:
-    1. Building
-    2. City
-    3. Height
+  1. Building
+  2. City
+  3. Height
 2. Add a custom column "Average floor height (m)" for the average floor height of a building (it's the height in metres divided by the number of floors)
 
 ![assets/Untitled%201.png](assets/Untitled%201.png)
