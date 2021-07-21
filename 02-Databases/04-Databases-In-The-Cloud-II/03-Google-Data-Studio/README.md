@@ -23,16 +23,16 @@ Let's come back to the *HandyHelp* case! The COO is interested into taking a loo
 
     Make your dashboard **accessible to everybody** (view access permission) and share the URL.
 
-- More requirements
+### More requirements (optional)
 
-    The dashboard should incorporate 2 control filters:
+The dashboard should incorporate 2 control filters:
 
-    - A Date range control. This control affects charts 2, 3, 4, 5, 6.
-    - A dropdown list control where I can filter a list of  4 targeted complaints. These complaints are: Noise - Residential, HEAT/HOT WATER, Illegal Parking and Blocked Driveway. This control affects to graph 7 and 8
+- A Date range control. This control affects charts 2, 3, 4, 5, 6.
+- A dropdown list control where I can filter a list of  4 targeted complaints. These complaints are: Noise - Residential, HEAT/HOT WATER, Illegal Parking and Blocked Driveway. This control affects graphs 7 and 8
 
-    Note that the chart 1. is independent of any filter.
+Note that the chart 1. is independent of any filter.
 
-    Feel free to choose the type of chart that better suits each question.
+Feel free to choose the type of chart that better suits each question.
 
 ### Key learning points
 
