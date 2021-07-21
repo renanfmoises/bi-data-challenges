@@ -14,15 +14,16 @@ But wait! The CFO has asked you to **make an estimate** on what is the cost of G
 
 Given the above specifications, what is the monthly cost (in USD) of Google Big Query ?
 
-- Assumptions and notes
+<details><summary markdown='span'>Assumptions and notes
+</summary>
+  For the analysis pricing estimation assume an On-demand pricing & US Multi-region location.
 
-    For the analysis pricing estimation assume an On-demand pricing & US Multi-region location.
+  For the storage pricing estimation assume a US Multi-region location.
 
-    For the storage pricing estimation assume a US Multi-region location.
+  Assume analysis and storing pricing as the only 2 costs associated to this use case (no associated data ingestion or extraction prices).
 
-    Assume analysis and storing pricing as the only 2 costs associated to this use case (no associated data ingestion or extraction prices).
-
-    Notes: 1TB = 1000GB; 1GB = 1000MB
+  Notes: 1TB = 1000GB; 1GB = 1000MB
+</details>
 
 **Task II**
 

@@ -8,7 +8,7 @@ Your work to help *HandyHelp* to better seize the market continues. Now you are 
 
 ---
 
-Again, as we are planning for the 2021 workforce allocation, **filter** in all your queries calls/complaints **from 2020**. Answer the following questions: 
+Again, as we are planning for the 2021 workforce allocation, **filter** in all your queries calls /complaints **from 2020**. Answer the following questions:
 
 1. What are New Yorkers complaining the most about (*complaint type*)? Order the complaints in descending order. 
 2. You think that this first query might be interesting for other analysis and it will be used by other data team members. Store it as a view (using the Editor commands not the *Save as*... ) in a dataset called `handyhelp`
