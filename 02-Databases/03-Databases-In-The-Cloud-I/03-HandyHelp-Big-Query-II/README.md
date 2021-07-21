@@ -19,23 +19,20 @@ Again, as we are planning for the 2021 workforce allocation, **filter** in all y
 
 3. There are several noise related issues in NYC (Noise-Residential, Noise - Street/Sidewalk…) To appreciate the real scale of it, aggregate all the noise related issues and compare it with the rest of complaints (in %). 
 4. What is the average resolution time of problems?
-    Need help?
-
     <details><summary markdown='span'>Help ❔
     </summary>
       To obtain the resolution time you could create a column that subtract 'closed_date' to 'opened_date'. Also in the WHERE clause filter out all resolution times = 0.
     </details>
 
-
-
 5. What is the average resolution time of each complaint type? 
 6. What is the borough where the complaints are solved faster?
 7. You want to asses what complaints take more time to resolve. With that information you can better allocate the offer to the demand per borough. What are the slowest complaints (=longest resolution time) to be solved in each borough? 
-- Note
+    <details><summary markdown='span'>Help ❔
+    </summary>
+      Filter out boroughs with `null` and `Unspecified` values
+    </details>
 
-    Filter out boroughs with null  values and Unspecified
-
-7. You want to assess whether to include a pest control professional/fumigator category in the platform. Is there a real demand for that in NYC? To decide about it you analyze how often (times per day) a rodent is reported in NYC.
+8. You want to assess whether to include a pest control professional/fumigator category in the platform. Is there a real demand for that in NYC? To decide about it you analyze how often (times per day) a rodent is reported in NYC.
 
 ### Key learning points
 
