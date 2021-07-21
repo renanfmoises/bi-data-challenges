@@ -32,9 +32,11 @@ For a summary of Big Query UI [you can take a look here](https://cloud.google.co
 
 [Untitled](https://www.notion.so/78e30601b83e4e8fa5bbf94da91daf31)
 
-- Trick
+<details><summary markdown='span'>Help ❔
+</summary>
+  In case of doubt about the data types look [here](https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types)
+</details>
 
-    In case of doubt about the data types look [here](https://cloud.google.com/bigquery/docs/reference/standard-sql/data-types)
 
 **4. Create another empty table within the *employees* dataset called *marketing* using the Create Table button in the dataset tab.**
 

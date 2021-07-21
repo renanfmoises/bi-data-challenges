@@ -41,9 +41,12 @@ As we are planning for the 2021 workforce allocation, **filter** in all your que
 3. What about the borough with more 311 calls in August 2020?
 4. What is the day of the week where the total number of calls is higher? (Assuming that *created_date* is the call date)
 5. What is the day of the week with a highest average number of calls? 
-    - Trick
+    Need help?
 
-        Maybe you could use the `WITH` clause that you learned in the previous units
+    <details><summary markdown='span'>Hint 💡
+    </summary>
+      Maybe you could use the `WITH` clause that you learned in the previous units
+    </details>
 
 6. What is the average number of calls during the weekends (Saturday & Sunday)?
 7. How has this average weekend number of calls evolved over the years? 
