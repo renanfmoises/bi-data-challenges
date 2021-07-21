@@ -84,6 +84,7 @@ We now want to sum up the total billions per business sector:
 
 1. First, you've noticed the first line of your fill is not recognized as a header. Add a new step "Use First Row as Headers"
 2. As you can see, you have a duplicated row in your dataset, remove it
+
     <details>
     <summary markdown='span'>Hint 💡</summary>
     - Select all columns
@@ -91,7 +92,7 @@ We now want to sum up the total billions per business sector:
     </details>
 3. Merge your dataset "Billionaires" and "Sector"
 
-    ⚠ Matchting columns have not the same name, you need to select them.
+    ⚠ Matching columns have not the same name, you need to select them.
 
     <details>
     <summary markdown='span'>Hint 💡</summary>
