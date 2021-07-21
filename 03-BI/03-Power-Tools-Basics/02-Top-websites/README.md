@@ -21,8 +21,12 @@ Use Query Editor to make this data look better:
     1. Alexa top 50 global sites (As of January 17, 2019[update])[3] ⇒ Alexa rating
 3. Remove "SimilarWeb top 50 sites (As of December 2018)[4]" column
 4. Format "Alexa ranking" column to whole number
-    - Hint 💡
-        - Use the "Extract" function
+
+<details><summary markdown='span'>Hint 💡
+</summary>
+  - Use the "Extract" function
+</details>
+
 
 ## Data visualization
 
@@ -30,8 +34,10 @@ Once your data is ok, bring it back into your Power BI report, and use it to cre
 
 We want to sum up the `best rank for each country` in a matrix.
 
-- Hint 💡
-    - Use the "Min" function in your matrix
+<details><summary markdown='span'>Hint 💡
+</summary>
+  - Use the "Min" function in your matrix
+</details>
 
 ![assets/Untitled%201.png](assets/Untitled%201.png)
 
