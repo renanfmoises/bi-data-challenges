@@ -43,5 +43,3 @@ grid[i][j]
 ## Exercise
 
 Open the `sudoku.py` file and implement the `is_valid()` instance method of the `SudokuSolver` class. 
-
-:bulb: Don't forget to **push your code to GitHub**
