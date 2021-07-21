@@ -30,7 +30,6 @@ Answer the following questions:
 2. Now, run a query against the partitioned table and describe the output.
 3. Why is this happening?
 4. Let’s do a small data manipulation change. We will change all the 2014 records in the `FULL_DATE` column for the current year. E.g. As I am working in the exercise in 2021, for a specific row, instead of having '2014-13-12' I will add 7 years to have '2021-13-12'. Create a column to store this new date (called `FORMATTED_DATE`) and use it to partition over this new date column. Call this new partitioned table `partition_flights_xxxx` ( where *xxxx* = current year).
-
     <details><summary markdown='span'>Hint 💡
     </summary>
       Take a look to the [date functions](https://cloud.google.com/bigquery/docs/reference/standard-sql/date_functions) wiki
@@ -41,14 +40,12 @@ Answer the following questions:
 7. Using the previous query, you want to check what is the processing improvement from the partitioned table vs. the non-partitioned one. Run the previous query in the non-partitioned table (Attach the SQL query) and compare the processing (MB or GB) of partitioned & non-partitioned queries. How much processing are you saving?
 8. Create a new time-unit partitioned table, but this time in terms of MONTH (call it `monthly_partition_flights_xxxx`). It must have a description and require a partition filter. Add a clustering to the origin, destination and airline operator (`CARRIER`).
 9. Create an integer partitioned table using the `DISTANCE` column (distance in miles between `ORIGIN` and `DESTINATION`).(call it `integer_partition_flights`). It must have a description and require a partition filter. Add a clustering to the origin, destination and airline operator (`CARRIER`).
-
     <details><summary markdown='span'>Hint 💡
     </summary>
       First, I recommend to estimate the min and max values of the DISTANCE column. Then you can map the values so that they fall within a range. E.g.: If the min. and max. distance values are 100 and 500 miles then all the mile values could fall in the interval: [100,200,400,500]
     </details>
 
 10. Use the previous integer partitioned table for this task. What are the top 5 airline (`CARRIER`) that has longest average departure delays in sort distance flights ( short distance flights = between the shortest distance and 1000 miles) ? 
-
     <details><summary markdown='span'>Note
     </summary>
       There are negative values of departure delays (flights that leave the airport before schedule). You should not consider them for the analysis.
