@@ -33,9 +33,10 @@ Second, this report has 3 charts:
     - Coordinates of the subway stations
     - Number of passengers split into ticket type
     - A tooltip field so that you can see which station you're looking at
-- Hint 💡
-
-    ![assets/Untitled%201.png](assets/Untitled%201.png)
+<details><summary markdown='span'>Hint 💡
+</summary>
+  ![assets/Untitled%201.png](assets/Untitled%201.png)
+</details>
 
 - 2 slicers
     1. Region
@@ -51,8 +52,11 @@ Once the data charts and settings are ok, we will format our report.
 
 For each chart add/modify the title (designation and background) and add a small border.
 
-- Hint 💡
-    - You can use the "Format painter" function
+<details><summary markdown='span'>Hint 💡
+</summary>
+  - You can use the "Format painter" function
+</details>
+
 
 Let's go further.
 

@@ -37,8 +37,10 @@ We now want to have more information in this chart.
 
 For every area, let's display the `population by country`.
 
-- Hint 💡
-    - For the information, we will use the `drill/down`
+<details><summary markdown='span'>Hint 💡
+</summary>
+  - For the information, we will use the `drill/down`
+</details>
 
 ![assets/Untitled%203.png](assets/Untitled%203.png)
 
