@@ -12,15 +12,21 @@ Again, as we are planning for the 2021 workforce allocation, **filter** in all y
 
 1. What are New Yorkers complaining the most about (*complaint type*)? Order the complaints in descending order. 
 2. You think that this first query might be interesting for other analysis and it will be used by other data team members. Store it as a view (using the Editor commands not the *Save as*... ) in a dataset called `handyhelp`
-    - Note
-
-        When you add your SQL code to create the view in your script don't write the name of the project preceding the handyhelp dataset. e.g: instead of `myfirstproject-xxxx.handyhelp.complaints_view` use `handyhelp.complaints_view`(only dataset.table).
+    <details><summary markdown='span'>Hint 💡
+    </summary>
+      When you add your SQL code to create the view in your script don't write the name of the project preceding the handyhelp dataset. e.g: instead of `myfirstproject-xxxx.handyhelp.complaints_view` use `handyhelp.complaints_view`(only dataset.table).
+    </details>
 
 3. There are several noise related issues in NYC (Noise-Residential, Noise - Street/Sidewalk…) To appreciate the real scale of it, aggregate all the noise related issues and compare it with the rest of complaints (in %). 
 4. What is the average resolution time of problems?
-    - Trick
+    Need help?
 
-        To obtain the resolution time you could create a column that subtract 'closed_date' to 'opened_date'. Also in the WHERE clause filter out all resolution times = 0.
+    <details><summary markdown='span'>Help ❔
+    </summary>
+      To obtain the resolution time you could create a column that subtract 'closed_date' to 'opened_date'. Also in the WHERE clause filter out all resolution times = 0.
+    </details>
+
+
 
 5. What is the average resolution time of each complaint type? 
 6. What is the borough where the complaints are solved faster?
