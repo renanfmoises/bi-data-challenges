@@ -33,106 +33,30 @@ print(ids[0][1])  # Would print 24
 
 Note that we first reach the first list and then reach the desired element within. Also the index always start at 0 which means that the second element will have the index *1*.
 
-Now that you're set, you'll have to answer to a few questions to manage those data!
+Now that you're set, you'll have to answer to a few questions to manage this data!
 
-We'll give hints and solution for all question so that you can easily pass this exercise, but please try to play with list and search on web before looking at the answer!
+## Hints
+Here are some hints to help you if you are stuck 👇
 
-1. First exercise:
-<details><summary markdown='span'>Hint
+<details><summary markdown='span'>Exercise 1
 </summary>
 You have first to loop through the list, to do so use the `for` loop.
 Then you'll have to check if the first letter is matching the parameter or not, to do so use indexes.
 </details>
-<details><summary markdown='span'>View solution
-</summary>
-
-```python
-matching_students = []
-for student in students:
-    if student[0] == letter:
-        matching_students.append(student)
-return matching_students
-```
-</details>
 
 
-2. Second exercise:
-
-<details><summary markdown='span'>Hint
+<details><summary markdown='span'>Exercise 2
 </summary>
 If you know the position of each element, you have access to them with their index! Read the reminder above ;-)
 If you don't, as in the first exercise, you'll have to loop through the list to find what you are looking for!
 </details>
-<details><summary markdown='span'>View solution
-</summary>
 
-You know its position in the `results` list:
-
-```python
-return results[index][1]
-```
-
-You don't know its position in the `results` list:
-```python
-for student_point in results:
-    if student_point[0] == name:
-        return student_point[1]
-```
-</details>
-
-
-3. Third Exercise
-
-<details><summary markdown='span'>View solution
-</summary>
-
-```python
-sum = 0
-for student_point in results:
-    sum += student_point[1]
-return sum / len(results)
-```
-</details>
-
-
-4. Fourth Exercise
-
-<details><summary markdown='span'>Hint
+<details><summary markdown='span'>Exercise 4
 </summary>
 You have to check which student has >= 5 points. After that, how can you add an element to a list?
 </details>
 
-<details><summary markdown='span'>View solution
-</summary>
-
-```python
-succeed_list = []
-for student_point in results:
-    if student_point[1] >= 5:
-        succeed_list.append(student_point[0])
-return succeed_list
-```
-</details>
-
-
-5. Fifth Exercise
-
-<details><summary markdown='span'>Hint
+<details><summary markdown='span'>Exercise 5
 </summary>
 The easiest way to perform that is to first create another list containing all student who _passed_ the exam, and then compare them to the `students` list.
-</details>
-
-<details><summary markdown='span'>View solution
-</summary>
-
-```python
-new_lst_of_student = []
-student_did_not_pass = []
-for student_point in results:
-    new_lst_of_student.append(student_point[0])
-for student in students:
-    if student not in new_lst_of_student:
-        student_did_not_pass.append(student)
-return student_did_not_pass
-```
 </details>
