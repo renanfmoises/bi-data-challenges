@@ -12,19 +12,19 @@ Here are the charts we want to display on our analysis `Report`. Your goal is to
 
 **Chart 1:**
 
-![assets/Untitled.png](assets/Untitled.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/02-Excel-Advanced/02-Graphs-and-Charts/Untitled.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/02-Excel-Advanced/02-Graphs-and-Charts/Untitled.png)
 
 **Chart 2:**
 
-![assets/Untitled%201.png](assets/Untitled%201.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/02-Excel-Advanced/02-Graphs-and-Charts/Untitled%201.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/02-Excel-Advanced/02-Graphs-and-Charts/Untitled%201.png)
 
 **Chart 3:**
 
-![assets/Untitled%202.png](assets/Untitled%202.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/02-Excel-Advanced/02-Graphs-and-Charts/Untitled%202.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/02-Excel-Advanced/02-Graphs-and-Charts/Untitled%202.png)
 
 **Chart 4:**
 
-![assets/Untitled%203.png](assets/Untitled%203.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/02-Excel-Advanced/02-Graphs-and-Charts/Untitled%203.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/02-Excel-Advanced/02-Graphs-and-Charts/Untitled%203.png)
 
 **Chart 5:**
 
@@ -32,7 +32,7 @@ This one is a bit special! See the dropdown lists ? It allows you to choose the 
 
 To do that, use a chart on the Pivot Table you created before.
 
-![assets/Untitled%204.png](assets/Untitled%204.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/02-Excel-Advanced/02-Graphs-and-Charts/Untitled%204.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/02-Excel-Advanced/02-Graphs-and-Charts/Untitled%204.png)
 
 Unhide `challenge_2_report` tab to check your charts.
 
@@ -46,6 +46,6 @@ Let's imagine the director needs a one page report for its strategic committee. 
 
 There is no specific answer, just play with Excel and get a bit more familiar 😎
 
-![assets/Untitled%205.png](assets/Untitled%205.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/02-Excel-Advanced/02-Graphs-and-Charts/Untitled%205.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/02-Excel-Advanced/02-Graphs-and-Charts/Untitled%205.png)
 
 Once finished, save this tab as PDF and have a look on the resulting report.

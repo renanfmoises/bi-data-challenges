@@ -10,13 +10,13 @@ Create a new Power BI report, and load in this data:
 
 [Populations.xlsx](assets/Populations.xlsx)
 
-![assets/Untitled.png](assets/Untitled.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/01-World-population/Untitled.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/01-World-population/Untitled.png)
 
 ## Data visualization
 
 First, we want to vizualise the `population by area` in a `donut chart`.
 
-![assets/Untitled%201.png](assets/Untitled%201.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/01-World-population/Untitled%201.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/01-World-population/Untitled%201.png)
 
 Use the formatting options in order to get the following design:
 
@@ -27,7 +27,7 @@ Use the formatting options in order to get the following design:
     2. Switch the % repartition to the area name
 4. Set a border 
 
-![assets/Untitled%202.png](assets/Untitled%202.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/01-World-population/Untitled%202.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/01-World-population/Untitled%202.png)
 
 *Here is the chart expected* 👆
 
@@ -40,7 +40,7 @@ For every area, let's display the `population by country`.
 - Hint 💡
     - For the information, we will use the `drill/down`
 
-![assets/Untitled%203.png](assets/Untitled%203.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/01-World-population/Untitled%203.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/01-World-population/Untitled%203.png)
 
 *Chart expected* 👆
 

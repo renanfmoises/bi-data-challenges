@@ -12,7 +12,7 @@ Create a new Power BI report, and load in the data from this workbook:
 
 [Richest people.xlsx](assets/Richest_people.xlsx)
 
-![assets/Untitled.png](assets/Untitled.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled.png)
 
 Let's clean our data now !
 
@@ -36,7 +36,7 @@ Once your data is ok, bring it back into your Power BI report, and use it to cre
 
 We want to sum up the `total billions owned by nationality` in a matrix.
 
-![assets/Untitled%201.png](assets/Untitled%201.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%201.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%201.png)
 
 So far, so good ?
 
@@ -56,7 +56,7 @@ Use Query Editor to enrich your data:
 - Hint 💡
     - Condition to apply below:
 
-    ![assets/Untitled%202.png](assets/Untitled%202.png)
+    ![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%202.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%202.png)
 
 ## Data visualization again
 
@@ -64,7 +64,7 @@ Once your data is ok, bring it back into your Power BI report, and use it to cre
 
 We want to sum up the `total billions owned by age category` in a matrix.
 
-![assets/Untitled%203.png](assets/Untitled%203.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%203.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%203.png)
 
 ## Merge data
 
@@ -89,13 +89,13 @@ We now want to sum up the total billions per business sector:
 
     - Hint 💡
 
-        ![assets/Untitled%204.png](assets/Untitled%204.png)
+        ![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%204.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%204.png)
 
 4. Rename your new dataset "Billionaires - Sector"
 5. Expand the merge table and select only the "Business sector" column
 6. Remove the alias "Sector." to the "Sector.Business sector" column
 7. In the Power BI report, build your `matrix total billions per business sector`
 
-![assets/Untitled%205.png](assets/Untitled%205.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%205.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%205.png)
 
 Save your file as **Billions**. 💾

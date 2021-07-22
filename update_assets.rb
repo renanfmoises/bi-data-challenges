@@ -12,6 +12,9 @@ readme_paths.each do |path|
     new_path = path.gsub("README.md", file_name)
     url = "https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/#{new_path}"
 
-    readme.gsub(occurence, url)
+    # p new_path
+    readme.gsub!(occurence, url)
   end
+
+  File.open(path, "w") { |f| f.write readme }
 end

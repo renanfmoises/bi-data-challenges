@@ -8,7 +8,7 @@ Create a new Power BI report, and load the data from this file:
 
 [First half.xlsx](assets/First_half.xlsx)
 
-![assets/Untitled.png](assets/Untitled.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/04-Data-manipulation/Untitled.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/04-Data-manipulation/Untitled.png)
 
 - Hint 💡
     - Drop 1st top row
@@ -21,7 +21,7 @@ Use Query Editor to enrich your data:
 
 - Unpivot the monthly data
 
-![assets/Untitled%201.png](assets/Untitled%201.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/04-Data-manipulation/Untitled%201.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/04-Data-manipulation/Untitled%201.png)
 
 *Output expected* 👆
 
@@ -31,7 +31,7 @@ Use Query Editor to enrich your data:
         - Create an aggregated column you will transform in date format
         - `Date task = "01/" & [Month number] & "/2020"`
 
-![assets/Untitled%202.png](assets/Untitled%202.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/04-Data-manipulation/Untitled%202.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/04-Data-manipulation/Untitled%202.png)
 
 *Output expected* 👆
 
@@ -45,9 +45,9 @@ Once your data is ok, bring it back into your Power BI report, and use it to cre
 
     For this challenge, just switch from "Date Hierarchy" to "Date task" to display the whole date.
 
-    ![assets/Untitled%203.png](assets/Untitled%203.png)
+    ![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/04-Data-manipulation/Untitled%203.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/04-Data-manipulation/Untitled%203.png)
 
-![assets/Untitled%204.png](assets/Untitled%204.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/04-Data-manipulation/Untitled%204.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/04-Data-manipulation/Untitled%204.png)
 
 *Chart expected* 👆
 
@@ -62,7 +62,7 @@ In order to refresh your data automatically, you have two ways for a flat file:
 1. Name this new file with the **exact** designation of your first import and replace it in the same folder
 2. Change the path in your datasource settings
 
-    ![assets/Untitled%205.png](assets/Untitled%205.png)
+    ![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/04-Data-manipulation/Untitled%205.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/04-Data-manipulation/Untitled%205.png)
 
 Then refresh your data. Which method do you prefer?!
 
