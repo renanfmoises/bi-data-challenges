@@ -8,7 +8,7 @@ The goal of this challenge is to create and customize your first charts.
 
 Create a new Power BI report, and load in this data:
 
-[Populations.xlsx](assets/Populations.xlsx)
+[Populations.xlsx](https://wagon-public-datasets.s3.eu-west-1.amazonaws.com/bi-data/Populations.xlsx)
 
 ![assets/Untitled.png](assets/Untitled.png)
 

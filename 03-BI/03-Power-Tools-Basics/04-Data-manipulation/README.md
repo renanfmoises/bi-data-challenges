@@ -6,7 +6,7 @@ The goal of this challenge is to learn how to manipulate date format.
 
 Create a new Power BI report, and load the data from this file:
 
-[First half.xlsx](assets/First_half.xlsx)
+[First half.xlsx](https://wagon-public-datasets.s3.eu-west-1.amazonaws.com/bi-data/First_half.xlsx)
 
 ![assets/Untitled.png](assets/Untitled.png)
 
@@ -60,7 +60,7 @@ Once your data is ok, bring it back into your Power BI report, and use it to cre
 
 We've just received the second half values for this year and we want to display the exact same chart.
 
-[Second half.xlsx](assets/Second_half.xlsx)
+[Second half.xlsx](https://wagon-public-datasets.s3.eu-west-1.amazonaws.com/bi-data/Second_half.xlsx)
 
 In order to refresh your data automatically, you have two ways for a flat file:
 

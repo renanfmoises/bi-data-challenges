@@ -6,7 +6,7 @@ The goal of this challenge is to create an advanced report using a map chart and
 
 Create a new Power BI report, and load in the data from this file:
 
-[subway.csv](assets/subway.csv)
+[subway.csv](https://wagon-public-datasets.s3.eu-west-1.amazonaws.com/bi-data/subway.csv)
 
 ## Data visualization
 

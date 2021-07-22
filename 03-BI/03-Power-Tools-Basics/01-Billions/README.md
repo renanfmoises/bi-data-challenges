@@ -10,7 +10,7 @@ The goal of this challenge is to learn how to load a data source and do some bas
 
 Create a new Power BI report, and load in the data from this workbook:
 
-[Richest people.xlsx](assets/Richest_people.xlsx)
+[Richest people.xlsx](https://wagon-public-datasets.s3.eu-west-1.amazonaws.com/bi-data/Richest_people.xlsx)
 
 ![assets/Untitled.png](assets/Untitled.png)
 
@@ -74,7 +74,7 @@ We want to sum up the `total billions owned by age category` in a matrix.
 
 Import the file below:
 
-[Business sector.xlsx](assets/Business_sector.xlsx)
+[Business sector.xlsx](https://wagon-public-datasets.s3.eu-west-1.amazonaws.com/bi-data/Business_sector.xlsx)
 
 It represents the business sector per company.
 

@@ -8,7 +8,7 @@ The goal of this challenge is to create your first Pivot Table analysis, using a
 
 ## Importing a CSV file
 
-Please download [supermarket_sales.csv](assets/supermarket_sales.csv) and [supermarket_study.xlsx](assets/supermarket_study.xlsx).
+Please download [supermarket_sales.csv](https://wagon-public-datasets.s3.eu-west-1.amazonaws.com/bi-data/supermarket_sales.csv) and [supermarket_study.xlsx](https://wagon-public-datasets.s3.eu-west-1.amazonaws.com/bi-data/supermarket_study.xlsx).
 
 Open `supermarket_study.xlsx`. It will be your main workbook.
 

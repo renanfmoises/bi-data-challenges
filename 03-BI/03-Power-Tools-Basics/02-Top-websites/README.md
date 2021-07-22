@@ -8,7 +8,7 @@ The goal of this challenge is to learn how to do some advanced data cleaning.
 
 Create a new Power BI report, and load the data from this file:
 
-[Top websites.xlsx](assets/Top_websites.xlsx)
+[Top websites.xlsx](https://wagon-public-datasets.s3.eu-west-1.amazonaws.com/bi-data/Top_websites.xlsx)
 
 ![assets/Untitled.png](assets/Untitled.png)
 

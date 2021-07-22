@@ -6,7 +6,7 @@ The goal of this challenge is to create your own report and share it with your t
 
 Create a new Power BI report, and load the data from this file:
 
-[Skyscrapers.csv](assets/Skyscrapers.csv)
+[Skyscrapers.csv](https://wagon-public-datasets.s3.eu-west-1.amazonaws.com/bi-data/Skyscrapers.csv)
 
 ## Specs
 

@@ -8,7 +8,7 @@ The goal of this challenge is to learn how to do some advanced data cleaning and
 
 Create a new Power BI report, and load the data from this file:
 
-[Wiki buildings.csv](assets/Wiki_buildings.csv)
+[Wiki buildings.csv](https://wagon-public-datasets.s3.eu-west-1.amazonaws.com/bi-data/Wiki_buildings.csv)
 
 ![assets/Untitled.png](assets/Untitled.png)
 
