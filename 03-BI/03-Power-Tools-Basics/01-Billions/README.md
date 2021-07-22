@@ -94,10 +94,7 @@ We now want to sum up the total billions per business sector:
     </details>
 3. Merge your dataset "Billionaires" and "Sector"
 
-
-![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%204.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%204.png)
-
-⚠ Matching columns have not the same name, you need to select them.
+    ⚠ Matching columns have not the same name, you need to select them.
 
     <details>
     <summary markdown='span'>Hint 💡</summary>

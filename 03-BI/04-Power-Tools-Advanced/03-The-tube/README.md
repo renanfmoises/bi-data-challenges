@@ -33,8 +33,8 @@ Second, this report has 3 charts:
     - Coordinates of the subway stations
     - Number of passengers split into ticket type
     - A tooltip field so that you can see which station you're looking at
-
-<details><summary markdown='span'>Hint 💡</summary>
+<details><summary markdown='span'>Hint 💡
+</summary>
 ![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/03-The-tube/Untitled%201.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/03-The-tube/Untitled%201.png)
 </details>
 
