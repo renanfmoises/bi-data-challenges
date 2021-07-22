@@ -23,39 +23,19 @@ Let's come back to the *HandyHelp* case! The COO is interested into taking a loo
 
     Make your dashboard **accessible to everybody** (view access permission) and share the URL.
 
-- More requirements
+### More requirements (optional)
 
-    The dashboard should incorporate 2 control filters:
+The dashboard should incorporate 2 control filters:
 
-    - A Date range control. This control affects charts 2, 3, 4, 5, 6.
-    - A dropdown list control where I can filter a list of  4 targeted complaints. These complaints are: Noise - Residential, HEAT/HOT WATER, Illegal Parking and Blocked Driveway. This control affects to graph 7 and 8
+- A Date range control. This control affects charts 2, 3, 4, 5, 6.
+- A dropdown list control where I can filter a list of  4 targeted complaints. These complaints are: Noise - Residential, HEAT/HOT WATER, Illegal Parking and Blocked Driveway. This control affects graphs 7 and 8
 
-    Note that the chart 1. is independent of any filter.
+Note that the chart 1. is independent of any filter.
 
-    Feel free to choose the type of chart that better suits each question.
+Feel free to choose the type of chart that better suits each question.
 
 ### Key learning points
 
 - Visualize insights in Data Studio
 - Import data sources
 - Use of filters & grouping of charts
-
-# SOLUTIONS (readme file in a zip archive)
-
-1.
-
-```sql
-CREATE TABLE `handyhelp.partition_nyc_311`
-   PARTITION BY DATETIME_TRUNC(created_date,MONTH) 
-   CLUSTER BY
-   borough   
- AS 
-    SELECT agency,agency_name,borough,created_date,closed_date,complaint_type,status
- FROM `bigquery-public-data.new_york_311.311_service_requests` 
- WHERE created_date BETWEEN DATETIME_SUB(CURRENT_TIMESTAMP(), INTERVAL 60 DAY) 
- AND  CURRENT_TIMESTAMP();
-```
-
-2. 
-
-[See this dashboard](https://datastudio.google.com/reporting/c3b49eca-addd-433d-b41d-27a075d943de) with points 1-8 visualized.

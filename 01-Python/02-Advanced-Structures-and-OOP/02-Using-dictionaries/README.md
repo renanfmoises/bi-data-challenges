@@ -35,7 +35,3 @@ Now, let's switch to `tricount.py`. A few functions are already defined in the f
 Every function can also be tested with the script `test_tricount.py`.
 
 For the fastest of you an optional question is also available regarding a smarter debts distribution of the amount recorded in the tricount dictionary.
-
-## Pushing your code to GitHub
-
-Don't forget to use GitHub Desktop to push your progress!

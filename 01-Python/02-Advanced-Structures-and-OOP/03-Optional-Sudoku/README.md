@@ -42,6 +42,4 @@ grid[i][j]
 
 ## Exercise
 
-Open the `sudoku.py` file and implement the `is_valid()` instance method of the `SudokuSolver` class. To check if your code is working, you can run the unittests in Spyder
-
-:bulb: Don't forget to **push your code to GitHub**
+Open the `sudoku.py` file and implement the `is_valid()` instance method of the `SudokuSolver` class. 

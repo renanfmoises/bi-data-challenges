@@ -10,11 +10,11 @@ The goal of this challenge is to learn how to load a data source and do some bas
 
 Create a new Power BI report, and load in the data from this workbook:
 
-[Richest people.xlsx](assets/Richest_people.xlsx)
+[Richest people.xlsx](https://wagon-public-datasets.s3.eu-west-1.amazonaws.com/bi-data/Richest_people.xlsx)
 
 ![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled.png)
 
-Let's clean our data now !
+Let's clean our data now!
 
 ## Data cleaning
 
@@ -24,11 +24,13 @@ Use Query Editor to make this data look better:
     1. No. ⇒ Rank
     2. Net worth (USD)(March 2018)[15] ⇒ Billions ($)
 2. Format the "Billions ($)" column to a whole number format
-- Hint 💡
-    - (Step 0: Replace the "." (point) with a "," (coma) )
-    - Step 1: Replace the word billion with an empty string.
-    - Step 2: Replace the $ symbol with an empty string.
-    - Step 3: Convert the resulting column to a whole number.
+<details>
+<summary markdown='span'>Hint 💡</summary>
+- (Step 0: Replace the "." (point) with a "," (coma) )
+- Step 1: Replace the word billion with an empty string.
+- Step 2: Replace the $ symbol with an empty string.
+- Step 3: Convert the resulting column to a whole number.
+</details>
 
 ## Data visualization
 
@@ -53,10 +55,12 @@ Use Query Editor to enrich your data:
     1. If Age ≥ 80 years ⇒ "Old"
     2. If 50 ≤ Age < 80 years ⇒ "Midle age"
     3. Else ⇒ "Young"
-- Hint 💡
-    - Condition to apply below:
+<details>
+<summary markdown='span'>Hint 💡</summary>
+- Condition to apply below:
 
-    ![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%202.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%202.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%202.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%202.png)
+</details>
 
 ## Data visualization again
 
@@ -70,7 +74,7 @@ We want to sum up the `total billions owned by age category` in a matrix.
 
 Import the file below:
 
-[Business sector.xlsx](assets/Business_sector.xlsx)
+[Business sector.xlsx](https://wagon-public-datasets.s3.eu-west-1.amazonaws.com/bi-data/Business_sector.xlsx)
 
 It represents the business sector per company.
 
@@ -80,17 +84,25 @@ We now want to sum up the total billions per business sector:
 
 1. First, you've noticed the first line of your fill is not recognized as a header. Add a new step "Use First Row as Headers"
 2. As you can see, you have a duplicated row in your dataset, remove it
-    - Hint 💡
-        - Select all columns
-        - Home ⇒ Remove rows ⇒ Remove duplicates
+
+    Need help?
+
+    <details>
+    <summary markdown='span'>Hint 💡</summary>
+    - Select all columns
+    - Home ⇒ Remove rows ⇒ Remove duplicates
+    </details>
 3. Merge your dataset "Billionaires" and "Sector"
 
-    ⚠ Matchting columns have not the same name, you need to select them.
 
-    - Hint 💡
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%204.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%204.png)
 
-        ![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%204.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%204.png)
+⚠ Matching columns have not the same name, you need to select them.
 
+    <details>
+    <summary markdown='span'>Hint 💡</summary>
+    ![assets/Untitled%204.png](assets/Untitled%204.png)
+    </details>
 4. Rename your new dataset "Billionaires - Sector"
 5. Expand the merge table and select only the "Business sector" column
 6. Remove the alias "Sector." to the "Sector.Business sector" column

@@ -6,7 +6,7 @@ The goal of this challenge is to create an advanced report using a map chart and
 
 Create a new Power BI report, and load in the data from this file:
 
-[subway.csv](assets/subway.csv)
+[subway.csv](https://wagon-public-datasets.s3.eu-west-1.amazonaws.com/bi-data/subway.csv)
 
 ## Data visualization
 
@@ -33,9 +33,10 @@ Second, this report has 3 charts:
     - Coordinates of the subway stations
     - Number of passengers split into ticket type
     - A tooltip field so that you can see which station you're looking at
-- Hint 💡
 
-    ![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/03-The-tube/Untitled%201.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/03-The-tube/Untitled%201.png)
+<details><summary markdown='span'>Hint 💡</summary>
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/03-The-tube/Untitled%201.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/03-The-tube/Untitled%201.png)
+</details>
 
 - 2 slicers
     1. Region
@@ -51,8 +52,11 @@ Once the data charts and settings are ok, we will format our report.
 
 For each chart add/modify the title (designation and background) and add a small border.
 
-- Hint 💡
-    - You can use the "Format painter" function
+<details><summary markdown='span'>Hint 💡
+</summary>
+  - You can use the "Format painter" function
+</details>
+
 
 Let's go further.
 

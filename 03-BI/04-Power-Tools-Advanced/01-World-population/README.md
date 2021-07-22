@@ -8,7 +8,7 @@ The goal of this challenge is to create and customize your first charts.
 
 Create a new Power BI report, and load in this data:
 
-[Populations.xlsx](assets/Populations.xlsx)
+[Populations.xlsx](https://wagon-public-datasets.s3.eu-west-1.amazonaws.com/bi-data/Populations.xlsx)
 
 ![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/01-World-population/Untitled.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/01-World-population/Untitled.png)
 
@@ -37,8 +37,10 @@ We now want to have more information in this chart.
 
 For every area, let's display the `population by country`.
 
-- Hint 💡
-    - For the information, we will use the `drill/down`
+<details><summary markdown='span'>Hint 💡
+</summary>
+  - For the information, we will use the `drill/down`
+</details>
 
 ![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/01-World-population/Untitled%203.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/01-World-population/Untitled%203.png)
 

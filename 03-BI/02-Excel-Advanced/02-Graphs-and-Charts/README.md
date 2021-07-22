@@ -28,7 +28,7 @@ Here are the charts we want to display on our analysis `Report`. Your goal is to
 
 **Chart 5:**
 
-This one is a bit special! See the dropdown lists ? It allows you to choose the displayed elements.
+This one is a bit special! See the dropdown lists? It allows you to choose the displayed elements.
 
 To do that, use a chart on the Pivot Table you created before.
 

@@ -6,14 +6,16 @@ The goal of this challenge is to learn how to manipulate date format.
 
 Create a new Power BI report, and load the data from this file:
 
-[First half.xlsx](assets/First_half.xlsx)
+[First half.xlsx](https://wagon-public-datasets.s3.eu-west-1.amazonaws.com/bi-data/First_half.xlsx)
 
 ![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/04-Data-manipulation/Untitled.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/04-Data-manipulation/Untitled.png)
 
-- Hint 💡
-    - Drop 1st top row
-    - Use first row as headers
-    - Name 1st column ⇒ Task
+<details><summary markdown='span'>Hint 💡
+</summary>
+  - Drop 1st top row
+  - Use first row as headers
+  - Name 1st column ⇒ Task
+</details>
 
 ## Data cleaning
 
@@ -27,9 +29,12 @@ Use Query Editor to enrich your data:
 
 - Add a conditional column, returning the correct `Month number` for each row (do the corresponding for the 12 months, it will be useful for the rest of this challenge)
 - Now, we want to create a real datetime object for this column. Let's say these values were taken the 1st day of each month in 2020. Create a new column `Date task` with a date format.
-    - Hint 💡
-        - Create an aggregated column you will transform in date format
-        - `Date task = "01/" & [Month number] & "/2020"`
+
+<details><summary markdown='span'>Hint 💡
+</summary>
+  - Create an aggregated column you will transform in date format
+  - `Date task = "01/" & [Month number] & "/2020"`
+</details>
 
 ![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/04-Data-manipulation/Untitled%202.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/04-Data-manipulation/Untitled%202.png)
 
@@ -55,7 +60,7 @@ Once your data is ok, bring it back into your Power BI report, and use it to cre
 
 We've just received the second half values for this year and we want to display the exact same chart.
 
-[Second half.xlsx](assets/Second_half.xlsx)
+[Second half.xlsx](https://wagon-public-datasets.s3.eu-west-1.amazonaws.com/bi-data/Second_half.xlsx)
 
 In order to refresh your data automatically, you have two ways for a flat file:
 
