@@ -33,8 +33,7 @@ For a summary of Big Query UI [you can take a look here](https://cloud.google.co
 
 id|last_name|creation_date|last_login|is_manager|Supervisors_id
 ---|---
-123|Smith|January 1, 2021|April 16, 2021 12:03 AM
-|TRUE|[110, 100, 210]
+123|Smith|January 1, 2021|April 16, 2021 12:03 AM|TRUE|[110, 100, 210]
 
 <details><summary markdown='span'>Help ❔
 </summary>
