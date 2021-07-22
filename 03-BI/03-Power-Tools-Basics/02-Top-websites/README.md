@@ -10,7 +10,7 @@ Create a new Power BI report, and load the data from this file:
 
 [Top websites.xlsx](https://wagon-public-datasets.s3.eu-west-1.amazonaws.com/bi-data/Top_websites.xlsx)
 
-![assets/Untitled.png](assets/Untitled.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/02-Top-websites/Untitled.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/02-Top-websites/Untitled.png)
 
 ## Data cleaning
 
@@ -39,6 +39,6 @@ We want to sum up the `best rank for each country` in a matrix.
   - Use the "Min" function in your matrix
 </details>
 
-![assets/Untitled%201.png](assets/Untitled%201.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/02-Top-websites/Untitled%201.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/02-Top-websites/Untitled%201.png)
 
 Save your file as **Top websites**. 💾

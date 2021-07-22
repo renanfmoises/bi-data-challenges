@@ -17,7 +17,7 @@ In this report, we want to create a map displaying the numbers of passengers by 
 - Scotland
 - Yorkshire and the Humber
 
-![assets/Untitled.png](assets/Untitled.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/03-The-tube/Untitled.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/03-The-tube/Untitled.png)
 
 ## Create a raw report
 
@@ -35,14 +35,14 @@ Second, this report has 3 charts:
     - A tooltip field so that you can see which station you're looking at
 <details><summary markdown='span'>Hint 💡
 </summary>
-  ![assets/Untitled%201.png](assets/Untitled%201.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/03-The-tube/Untitled%201.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/03-The-tube/Untitled%201.png)
 </details>
 
 - 2 slicers
     1. Region
     2. Estimated passengers
 
-![assets/Untitled%202.png](assets/Untitled%202.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/03-The-tube/Untitled%202.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/03-The-tube/Untitled%202.png)
 
 *Chart expected* 👆
 

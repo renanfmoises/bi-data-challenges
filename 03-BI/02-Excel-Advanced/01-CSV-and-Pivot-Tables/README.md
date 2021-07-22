@@ -25,7 +25,7 @@ Import `supermarket_sales.csv` (do not forget to check the preview!) and load it
 
 🚧 To verify that dot decimals were interpreted the right way, just select some cells on what should be a numbered column. If an average and a sum are displayed at the bottom of your window, you can just continue. 
 
-![assets/Untitled.png](assets/Untitled.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/02-Excel-Advanced/01-CSV-and-Pivot-Tables/Untitled.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/02-Excel-Advanced/01-CSV-and-Pivot-Tables/Untitled.png)
 
 You'll learn how to get along with that problem in the Query Editor unit (basically, force a change on separator).
 

@@ -14,7 +14,7 @@ Let's create your first Power BI report!
 
 Insert the image from the zip file.
 
-![assets/Untitled.png](assets/Untitled.png)
+![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/02-Movies/Untitled.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/04-Power-Tools-Advanced/02-Movies/Untitled.png)
 
 Report *expected* 👆
 
