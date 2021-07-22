@@ -31,6 +31,10 @@ For a summary of Big Query UI [you can take a look here](https://cloud.google.co
 **3. Within the *employees* dataset create an empty table called *sales* via the Editor (in Standard SQL). It must have the following fields*: id, last_name, creation_date , last_login, is_manager, supervisors_id*. Also the table must have a description and a label. A row of this table will look like:**
 
 [Untitled](https://www.notion.so/78e30601b83e4e8fa5bbf94da91daf31)
+id|last_name|creation_date|last_login|is_manager|Supervisors_id
+---|---
+123|Smith|January 1, 2021|April 16, 2021 12:03 AM
+|TRUE|[110, 100, 210]
 
 <details><summary markdown='span'>Help ❔
 </summary>
