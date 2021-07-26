@@ -98,7 +98,7 @@ We now want to sum up the total billions per business sector:
 
     <details>
     <summary markdown='span'>Hint 💡</summary>
-    ![assets/Untitled%204.png](assets/Untitled%204.png)
+    ![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%204.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/03-Power-Tools-Basics/01-Billions/Untitled%204.png)
     </details>
 4. Rename your new dataset "Billionaires - Sector"
 5. Expand the merge table and select only the "Business sector" column
