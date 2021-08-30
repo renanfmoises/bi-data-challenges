@@ -26,6 +26,6 @@ It will let you have the average `QualityCheck` value per month and employee.
   Got errors instead of zeros ? Use `IFERROR`!
 </details>
 
-Once done, find a way to display the value corresponding to chosen Employee and Month in lists: your colleague look forward to using this report!
+Once done, find a way to display the value corresponding to chosen Employee and Month in lists: your colleagues look forward to using this report!
 
 Check `challenge_4_solution`.
