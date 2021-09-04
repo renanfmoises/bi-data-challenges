@@ -8,7 +8,7 @@ Go to the finish line by practicing some array formulas!
 
 Quick reminder: array formulas cost less memory and are really interesting to use once mastered.
 
-Do not forget to use `Ctrl + Tab + Enter` when validating your formula!
+Do not forget to use `Ctrl + Shift + Enter` when validating your formula!
 
 On `Array Formulas` tab, using the left Table:
 
