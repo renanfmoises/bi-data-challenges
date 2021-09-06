@@ -48,4 +48,4 @@ There is no specific answer, just play with Excel and get a bit more familiar ðŸ
 
 ![https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/02-Excel-Advanced/02-Graphs-and-Charts/Untitled%205.png](https://raw.githubusercontent.com/lewagon/data-images/master/bi-data/03-BI/02-Excel-Advanced/02-Graphs-and-Charts/Untitled%205.png)
 
-Once finished, save this tab as PDF and have a look on the resulting report.
+Once finished, save this tab as PDF and have a look on the resulting report. Share your creation with the class on your batch's Slack channel!
