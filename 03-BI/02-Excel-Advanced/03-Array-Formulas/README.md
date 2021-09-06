@@ -12,8 +12,8 @@ Do not forget to use `Ctrl + Shift + Enter` when validating your formula!
 
 On `Array Formulas` tab, using the left Table:
 
-- Count rows containing "Yangon"
-- Count rows containing "Yangon" + "Male"
+- Count rows where City is "Yangon"
+- Count rows where City is "Yangon" and Gender is "Male"
 - Sum `Total` for "Yangon" rows
 - Sum `Total` where `Unit price` is upper than 50
 - Sum Total after 2019-09-01
