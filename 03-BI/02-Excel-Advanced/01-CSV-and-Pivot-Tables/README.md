@@ -54,7 +54,7 @@ Let's try a first calculation:
   Nested rows tables are not easily workable when exported or used in reports.
 </details>
 
-- Check `Date`, Years, Quarters and Date appearing in Rows. Delete Quarters and Date, and move Years to the Filter area. You can now select a specific year to get the Grand Total.
+- Check `Date`, Months and Date appear in Rows. Delete Date, and move Months to the Filter area. You can now select a specific month to get the Grand Total.
 
 You now understand why Pivot Tables are a must know. It improves greatly your productivity at the time of examining a dataset.
 
