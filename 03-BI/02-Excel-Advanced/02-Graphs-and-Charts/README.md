@@ -42,7 +42,7 @@ Got every charts on your report ? Great!
 
 Go to Page Layout > Size > Letter. A dotted border is now displayed. It represents the content included in a printed report.
 
-Let's imagine the director needs a one page report for its strategic committee. Go on and create that report, all graphs must fit in it! Here's an exemple of how it could look like.
+Let's imagine the director needs a one page report for its strategic committee. Go on and create that report, all graphs must fit in it! Here's an example of how it could look like.
 
 There is no specific answer, just play with Excel and get a bit more familiar 😎
 
