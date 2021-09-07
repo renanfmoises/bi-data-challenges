@@ -53,7 +53,7 @@ Use Query Editor to enrich your data:
 1. Create a new Conditional column "Age category"
 2. Categorise billionaires into 3 categories:
     1. If Age ≥ 80 years ⇒ "Old"
-    2. If 50 ≤ Age < 80 years ⇒ "Midle age"
+    2. If 50 ≤ Age < 80 years ⇒ "Middle age"
     3. Else ⇒ "Young"
 <details>
 <summary markdown='span'>Hint 💡</summary>
