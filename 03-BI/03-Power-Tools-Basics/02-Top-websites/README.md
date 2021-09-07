@@ -18,7 +18,7 @@ Use Query Editor to make this data look better:
 
 1. Rename your dataset "Websites"
 2. Rename your column:
-    1. Alexa top 50 global sites (As of January 17, 2019[update])[3] ⇒ Alexa rating
+    1. Alexa top 50 global sites (As of January 17, 2019[update])[3] ⇒ Alexa ranking
 3. Remove "SimilarWeb top 50 sites (As of December 2018)[4]" column
 4. Format "Alexa ranking" column to whole number
 
