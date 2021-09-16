@@ -3,7 +3,7 @@
 In this assignment, we will import the data from Kaggle into Excel using Power Query.
 After reiterating the foundations of the past modules regarding Excel, we will clean the data trough Power Query. 
 
-This will allow us to : 
+This will allow us to: 
  - check the different data types of the columns in our tables 
  - to `fill in` missing values
  - take care of `NA` values
