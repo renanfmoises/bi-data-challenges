@@ -3,7 +3,7 @@
 We will analyze a dataset imported from [Kaggle](https://www.kaggle.com/olistbr/brazilian-ecommerce) that was provided by a Brazilian e-commerce marketplace called [Olist](https://www.olist.com) to answer the following CEO’s question:
 
 
-> How to increase profit margin (foucusing on customer satisfaction) while maintaining a healthy order volume?
+> How to increase profit margin (focusing on customer satisfaction) while maintaining a healthy order volume?
 
 ## About Olist 🇧🇷
 
