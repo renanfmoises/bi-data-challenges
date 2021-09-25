@@ -6,7 +6,11 @@ def multiplicator(max_speed, actual_speed):
     :return: int
     """
     # Your code
+<<<<<<< HEAD
     return 2 ** ((actual_speed - max_speed)//10)
+=======
+    pass
+>>>>>>> 0782c767536f39d257c82e4fa630528b55d96c35
 
 
 def basic_tax(max_speed, actual_speed):
@@ -16,10 +20,15 @@ def basic_tax(max_speed, actual_speed):
     :param actual_speed: int
     :return: float
     """
+<<<<<<< HEAD
     min_tax = 12.5
     if multiplicator(max_speed, actual_speed) * 5 < min_tax:
         return min_tax
     return multiplicator(max_speed, actual_speed) * 5
+=======
+    # Your code
+    pass
+>>>>>>> 0782c767536f39d257c82e4fa630528b55d96c35
 
 
 
