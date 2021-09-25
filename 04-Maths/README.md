@@ -1,0 +1,1 @@
+Data Analysts must understand the underlying math behind descriptive analytics. In this module, we learn or review the basic concepts of statistics & probabilities (mean, variance, random variable, Bayes’s Theorem, etc.).
